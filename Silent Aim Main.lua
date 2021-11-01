@@ -1,5 +1,5 @@
 
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/tayodevelup/imsoniac/main/silent2"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Enviie/Crack-Akon-Da-Hood-Lock/main/Silent%20Aim%20Api"))()
 Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
