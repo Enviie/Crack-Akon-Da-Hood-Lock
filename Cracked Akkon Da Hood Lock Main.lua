@@ -1,1 +1,14 @@
-local lllIIlIIlllIIlIIllllIIIlIIIlIlllIlIlllII_OgrFy=game:GetService"\80\108\97\121\101\114\115".LocalPlayer local IlIlIIIlIlIlIllIIIllIllIlllIlIIIllllIlIlllIl_CQw=nil IlIlIIIlIlIlIllIIIllIllIlllIlIIIllllIlIlllIl_CQw=hookfunc(game.HttpGet,function(lllIIIlIIlIlIlIIllIllIlIIllIIIII_MBZ4,lllllIIIlllllIlIllIllllIIIlIllIllIlll_InjVnOu,...)if lllllIIIlllllIlIllIllllIIIlIllIllIlll_InjVnOu=="\104\116\116\112\58\47\47\108\105\103\109\97\46\119\116\102\47\115\99\114\105\112\116\115\47\117\110\104\111\111\107\46\108\117\97"then return elseif lllllIIIlllllIlIllIllllIIIlIllIllIlll_InjVnOu=="\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\66\105\116\101\121\122\47\119\108\47\109\97\105\110\47\119\108"then return"\108\111\99\97\108\32\119\108\32\61\32\123"..lllIIlIIlllIIlIIllllIIIlIIIlIlllIlIlllII_OgrFy.UserId.."\125\32\114\101\116\117\114\110\32\119\108"elseif lllllIIIlllllIlIllIllllIIIlIllIllIlll_InjVnOu=="\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\116\97\121\111\100\101\118\101\108\117\112\47\105\109\115\111\110\105\97\99\47\109\97\105\110\47\115\105\108\101\110\116\97\105\109"then lllllIIIlllllIlIllIllllIIIlIllIllIlll_InjVnOu="\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\69\110\118\105\105\101\47\67\114\97\99\107\45\65\107\111\110\45\68\97\45\72\111\111\100\45\76\111\99\107\47\109\97\105\110\47\83\105\108\101\110\116\37\50\48\65\105\109\37\50\48\77\97\105\110\46\108\117\97"end return IlIlIIIlIlIlIllIIIllIllIlllIlIIIllllIlIlllIl_CQw(lllIIIlIIlIlIlIIllIllIlIIllIIIII_MBZ4,lllllIIIlllllIlIllIllllIIIlIllIllIlll_InjVnOu,...)end)task.wait()loadstring(game:HttpGetAsync"\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\69\110\118\105\105\101\47\67\114\97\99\107\45\65\107\111\110\45\68\97\45\72\111\111\100\45\76\111\99\107\47\109\97\105\110\47\65\107\111\110\37\50\48\76\111\99\107\37\50\48\68\97\37\50\48\72\111\111\100")"\69\110\118\105\105\101\32\83\111\111\32\72\111\116\33"
+local Me = game:GetService("Players").LocalPlayer
+local Hook = nil
+Hook = hookfunc(game.HttpGet, function(self, link, ...)
+    if link == "http://ligma.wtf/scripts/unhook.lua" then -- no kfc obfuscator sus backdoor
+        return 
+    elseif link == "https://raw.githubusercontent.com/Biteyz/wl/main/wl" then -- bad whitelist honestly...
+        return [[local wl = {]] .. Me.UserId .. [[} return wl]]
+    elseif link == "https://raw.githubusercontent.com/tayodevelup/imsoniac/main/silentaim" then
+        link = "https://raw.githubusercontent.com/Enviie/Crack-Akon-Da-Hood-Lock/main/Silent%20Aim%20Main.lua" -- Silent Aim Api skidded off
+    end    
+    return Hook(self, link, ...)
+end)
+task.wait()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Enviie/Crack-Akon-Da-Hood-Lock/main/Akon%20Lock%20Da%20Hood"))("Enviie Soo Hot!")
